@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+:root {
+    --primary: #9c1de7;
+    --secondary: #303a52;
+    --danger: #fc5185;
+    --main-font: 'Open Sans', sans-serif;
+}
+
+* {
+    font-family: var(--main-font);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card {
+    width: 300px;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 20px;
+    display: inline-block;
+}
+
+.card-title {
+    font-weight: 700px;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.card-text {
+    font-size: 16px;
+}
+
+
+.text-center {
+    text-align: center;
+}
+
+.text-start {
+    text-align: left;
+}
+
+.text-end {
+    text-align: right;
+}
+
+.rounded {
+    border-radius: 10px;
+}

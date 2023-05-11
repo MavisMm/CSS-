@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .box{border:3px solid black; padding: 10px;
+            background-color: black;
+
+        }
+
+        @media screen and (max-width:1200px) {
+        .box{background-color: blue;}
+        }
+
+        @media screen and (max-width:1000px) {
+        .box{background-color: red;}
+        }
+
+
+
+        @media print{
+.box{
+font-size: 40px;
+font-family: sans-serif;
+
+}
+        }
+
+        .thanks{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi et odit autem sed non exercitationem facere unde vitae optio fugiat voluptas omnis alias culpa placeat repudiandae, minus quaerat impedit dignissimos!
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia nesciunt molestiae vel facilis nulla id qui labore exercitationem animi ipsa iure beatae autem quisquam et nostrum nobis, consequuntur iste odit impedit odio repudiandae quasi rem. Voluptate, placeat
+
+    </div>
+
+
+<p class="thanks">
+    thanks you
+</p>
+
+</body>
+</html>

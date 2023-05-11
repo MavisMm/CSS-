@@ -1,0 +1,39 @@
+table {
+    width: 100%; border: 1px solid black; border-collapse: collapse;
+}
+
+th {background-color: black; text-align: justify; color: white;
+
+
+}
+
+tr { background-color: burlywood;
+
+}
+tr:nth-child(odd) {background-color: rgb(151, 151, 167);}
+
+tr:hover { background-color: rgb(105, 143, 143);}
+
+td,th { padding: 10px 20px; 
+    /* border: 1px solid black; */
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

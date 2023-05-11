@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,300&display=swap');
+
+:root {
+    --primary: #9c1de7;
+    --secondary: #303a52;
+    --danger: #fc5185;
+    --main-font: 'Open Sans', sans-serif;
+}
+
+* {
+    font-family: var(--main-font);
+}
+
+.x {border: 1px solid black; background-color: black; color: white; font-family: 'Roboto', sans-serif; border-radius: 7px; padding: 10px 20px;
+font-size: 20px; 
+}
+
+.x:hover {background-color: gray;}
+
+.y {color: black; background-color: transparent; font-size: 20px; border: 1px solid black;font-family: 'Roboto', sans-serif; padding: 10px 20px;
+border-radius: 7px; transition: 0.5s;
+}
+
+.y:hover {background-color: grey; color: white;
+
+}
+
+
+.spotify {background-color: black; border: 1px solid black; color: rgb(195, 130, 130); font-size: 25px; border-radius: 7px; width: 50px; height: 50px;
+
+}
+
+.spotify:hover {background-color: blue; color: white;
+
+
+}
+
+.youtube {background-color: transparent; color: black; border: 1px solid black; border-radius: 25px; width: 50px; height: 50px; font-size: 25px;
+
+}
+
+.youtube:hover {
+    background-color: brown; color: white;
+}
+
+/* .a {border: 1px solid black; background-color: white; color: brown; font-family: 'Roboto', sans-serif; border-radius: 7px; padding: 10px 20px;
+    font-size: 20px;    } */
+
+
+    .a { background-color: burlywood; color: blue; border: burlywood;
+    }
+.a:hover {background-color: darkblue; color: orange;
+
+}
+
+/* .b {border: 1px solid black; background-color: transparent; color: blueviolet; font-family: 'Roboto', sans-serif; border-radius: 7px; padding: 10px 20px;
+    font-size: 20px; 
+    } */
+
+    .b {background-color: chartreuse; color: azure; border: chartreuse;
+    }
+
+    .b:hover {
+        background-color: coral; color: azure;
+    }
+
+    /* .c {border: 1px solid black; background-color: rgb(76, 134, 126); color: rgb(109, 44, 44); font-family: 'Roboto', sans-serif; border-radius: 7px; padding: 10px 20px;
+        font-size: 20px;  */
+        }
+
+        .c { 
+            background-color: blue; color: azure; border: blue;
+        }
+
+.c:hover { background-color: navajowhite; color: black;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
